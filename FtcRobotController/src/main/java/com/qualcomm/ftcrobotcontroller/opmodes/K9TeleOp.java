@@ -145,8 +145,7 @@ public class K9TeleOp extends OpMode {
 
 		// scale the joystick value to make it easier to control
 		// the robot more precisely at slower speeds.
-		right = (float)scaleInput(right);
-		left =  (float)scaleInput(left);
+
 		
 		// write the values to the motors
 		motorRight.setPower(right);
