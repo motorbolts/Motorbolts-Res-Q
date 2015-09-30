@@ -52,5 +52,10 @@ public class ExampleGripper2 extends OpMode {
         telemetry.addData("right", "right:  " + String.format("%.2f", rightposition));
         //telemetry.addData("left", "left:  " + String.format("%.2f", rightposition));
     }
+    @Override
+    public void stop() {
+
+    }
+
 }
 
