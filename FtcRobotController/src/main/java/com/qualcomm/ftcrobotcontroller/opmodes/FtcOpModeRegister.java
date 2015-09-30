@@ -89,5 +89,6 @@ public class FtcOpModeRegister implements OpModeRegister {
      */
 
     manager.register("ExampleGripper2", ExampleGripper2.class);
+    manager.register("MBTankDrive", MBTankDrive.class);
   }
 }
